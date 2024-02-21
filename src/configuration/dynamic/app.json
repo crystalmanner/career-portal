@@ -9,32 +9,69 @@
     "rtf",
     "odt"
   ],
-  "companyName": "[ COMPANY NAME HERE ]",
-  "companyLogoPath": "",
-  "companyUrl": "",
-  "careersUrl": "",
+  "companyName": "ConnectHealth",
+  "companyLogoPath": "https://images.squarespace-cdn.com/content/v1/644d3050694f057cbeead1a8/6af329be-21b3-4c12-87ce-2d425ffea3ee/LOGO+ICON.png",
+  "companyUrl": "https://www.connecthealthstaff.com",
+  "careersUrl": "https://www.connecthealthstaff.com/jobs",
   "defaultLocale": "en-US",
   "supportedLocales": [
-      "en-US",
-      "en-GB",
-      "en",
-      "fr-FR",
-      "fr",
-      "es",
-      "de",
-      "it",
-      "nl",
-      "ru",
-      "zh-CN"
+    "en-US",
+    "en-GB",
+    "en",
+    "fr-FR",
+    "fr",
+    "es",
+    "de",
+    "it",
+    "nl",
+    "ru",
+    "zh-CN"
   ],
+  "languageDropdownOptions": {
+    "enabled": true,
+    "choices": [
+      {
+        "localeCode": "en",
+        "name": "English"
+      },
+      {
+        "localeCode": "fr",
+        "name": "French"
+      },
+      {
+        "localeCode": "es",
+        "name": "Spanish"
+      },
+      {
+        "localeCode": "de",
+        "name": "German"
+      },
+      {
+        "localeCode": "it",
+        "name": "Italian"
+      },
+      {
+        "localeCode": "nl",
+        "name": "Dutch"
+      },
+      {
+        "localeCode": "ru",
+        "name": "Russian"
+      },
+      {
+        "localeCode": "zh-CN",
+        "name": "Chinese"
+      }
+    ]
+  },
   "minUploadSize": 4096,
   "maxRelatedJobs": 5,
   "maxUploadSize": 5242880,
   "service": {
     "batchSize": 500,
-    "corpToken": "[ CORP TOKEN HERE ]",
+    "corpToken": "B0AZ40",
     "port": null,
-    "swimlane": "[ SWIMLANE HERE ]",
+    "swimlane": "43",
     "fields": [
       "id",
       "title",
@@ -79,13 +116,13 @@
     }
   },
   "eeoc": {
-    "genderRaceEthnicity": false,
-    "veteran": false,
-    "disability": false
+    "genderRaceEthnicity": true,
+    "veteran": true,
+    "disability": true
   },
   "privacyConsent": {
-    "consentCheckbox": false,
-    "sidebarLink": false,
+    "consentCheckbox": true,
+    "sidebarLink": true,
     "privacyPolicyUrl": "/privacy"
   }
 }
